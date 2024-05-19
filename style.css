@@ -1,0 +1,113 @@
+@keyframes pop-out {
+  from {opacity : 0;}
+  to {opacity : 1; }
+}
+
+
+body {
+  margin : 0;
+  padding : 0;
+}
+
+.container {
+  margin : 2vh;
+  padding : 0;
+}
+.main {
+  padding : 0;
+  margin-top : 4vh;
+}
+.main h1 {
+  font-family: "Merriweather", Sans-Serif;
+  color : rgb(28, 11, 12);
+  font-size : 10vh;
+  margin : 0;
+}
+.main h2 {
+  font-family: "Merriweather", Sans-Serif;
+  margin-top : 0.5px;
+  margin-bottom : 10px;
+  font-size : 10vh;
+  color : rgb(28, 11, 12);
+}
+
+p {
+  font-family : "Montserrat", Sans-Serif;
+  font-size : 2.3vh;
+}
+.main .contact-button {
+  border : 0.5px solid black;
+  border-radius: 2vh;
+  display : inline-block;
+  margin-top : 2vh;
+  font-size : 20px;
+  padding : 2vh;
+  font-family: "Montserrat", Sans-Serif;
+  background-color : white;
+  box-shadow: 0px 0px 5px black;
+}
+.main .arrow-down {
+ margin-top : 50vh;
+ text-align: center;
+}
+
+.project .title {
+  font-family: "Merriweather", Sans-Serif;
+  font-size : 6vh;
+}
+.project p {
+  margin-top : 2vh;
+  font-size : 4vh;
+  text-align: center;
+}
+.project img {
+  margin-top : 8vh;
+  margin-left : auto;
+  display: block;
+  margin-right: auto;
+  height : 15vh;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 2vh black;
+  animation-name : pop-out;
+  animation-duration: 2s;
+}
+.project .slide {
+  display : none;
+  margin-top : 5vh;
+  position: relative;
+}
+.project .next {
+  position: absolute;
+  height : 70px;
+  border : transparent;
+  width : 70px;
+  background-color: transparent;
+  left : 42vh;
+  top : 130vh;
+}
+.project .next-click {
+  border: solid #0a0a0a;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 15px;
+  transition: 0.5s ease-out;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.project .previous {
+  position: absolute;
+  height : 70px;
+  border : transparent;
+  width : 70px;
+  background-color: transparent;
+  top : 130vh;
+}
+.project .previous-click {
+  border: solid #0a0a0a;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 15px;
+  transition: 0.5s ease-out;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
