@@ -47,7 +47,7 @@ p {
   box-shadow: 0px 0px 5px black;
 }
 .main .arrow-down {
- margin-top : 50vh;
+ margin-top : 53vh;
  text-align: center;
 }
 
@@ -71,6 +71,12 @@ p {
   animation-name : pop-out;
   animation-duration: 2s;
 }
+.project .about {
+  margin-top : 15vh;
+  margin-bottom : 20vh;
+  font-size : 3vh;
+  text-align: center;
+}
 .project .slide {
   display : none;
   margin-top : 5vh;
@@ -83,7 +89,7 @@ p {
   width : 70px;
   background-color: transparent;
   left : 42vh;
-  top : 130vh;
+  top : 133vh;
 }
 .project .next-click {
   border: solid #0a0a0a;
@@ -100,7 +106,7 @@ p {
   border : transparent;
   width : 70px;
   background-color: transparent;
-  top : 130vh;
+  top : 133vh;
 }
 .project .previous-click {
   border: solid #0a0a0a;
@@ -110,4 +116,33 @@ p {
   transition: 0.5s ease-out;
   transform: rotate(135deg);
   -webkit-transform: rotate(135deg);
+}
+.programming-language {
+  margin : 0;
+}
+.programming-language .title {
+  font-family: "Merriweather", Sans-Serif;
+  font-size : 4vh;
+}
+.programming-language ul {
+  margin-top : 10vh;
+}
+.programming-language img {
+  height : 5rem;
+  margin-left : auto;
+  display: block;
+  margin-right: auto;
+  padding : 5px;
+}
+.programming-language li {
+  display: inline-block;
+  margin-left : auto;
+  margin-right: auto;
+}
+.contact {
+  margin-top : 10vh;
+}
+.contact h2 {
+  font-family: "Merriweather", Sans-Serif;
+  font-size : 4vh;
 }
