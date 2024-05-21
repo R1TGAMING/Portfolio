@@ -146,3 +146,38 @@ p {
   font-family: "Merriweather", Sans-Serif;
   font-size : 4vh;
 }
+.contact li {
+  display : inline-block;
+  list-style-type: none;
+  align-items: center;
+  text-align: center;
+}
+.contact ul {
+  display : inline-block;
+  text-align: center;
+  margin-top : 5vh;
+  padding : 0;
+  margin : 0;
+  flex-direction: column;
+  
+}
+.contact img {
+  height : 2rem;
+  margin-left : auto;
+  display: block;
+  margin-right: auto;
+  padding : 10px;
+}
+.contact .tiktok {
+  border-radius: 2vh;
+}
+.penutup {
+  border-top-right-radius: 2vh;
+  border-top-left-radius: 2vh;
+  background-color: #bfbfbf;
+  color : white;
+  font-family: "Merriweather", Sans-Serif;
+  text-align: center;
+  margin : 0;
+  padding : 1vh;
+}
