@@ -7,13 +7,14 @@
     <link href="https://fonts.cdnfonts.com/css/merriweather" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
     <link rel = "stylesheet" href = "style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <div class = "container">
       <div class = "main">
-        <h1>HI</h1>
-        <h2>I'm <span style= "color : #FF5252;">ipii</span></h2>
-        <p>as <span style = "color : #ED2939;">back-end developer.</span> I'm from <span style = "color : red;">Indonesia.</span> and <br>i will do something what i like.</p>
+        <h1 data-aos = "fade-right" data-aos-duration="1500">HI</h1>
+        <h2 data-aos = "fade-right" data-aos-duration="1500" data-aos-delay = "400">I'm <span style= "color : #FF5252;">ipii</span></h2>
+        <p data-aos = "fade" data-aos-duration = "1500">as <span style = "color : #ED2939;">back-end developer.</span> I'm from <span style = "color : red;">Indonesia.</span> and <br>i will do something what i like.</p>
         <a href = "#contact">
         <button class = "contact-button">Contact Me</button>
         </a>
@@ -21,7 +22,7 @@
       </div>
       <div class = "project">
         <hr>
-        <h2 class = "title">My <span style = "color : #FF5252">Project</span></h2>
+        <h2 class = "title" data-aos = "fade" data-aos-duration = "1500">My <span style = "color : #FF5252">Project</span></h2>
         <div class = "slide">
           <p><span style = "color: #FF5252">Vueko </span>Bot Whatsapp</p>
           <img src = "Vueko.jpeg" />
@@ -47,22 +48,22 @@
       </div>
       <div class = "programming-language">
         <hr>
-        <h2 class = "title">My <span style = "color : #FF5252">Programming </span>Skills</h2>
+        <h2 class = "title" data-aos = "fade" data-aos-duration = "1500">My <span style = "color : #FF5252">Programming </span>Skills</h2>
         <ul>
           <li>
-            <img src = "html.png" />
+            <img src = "html.png" data-aos = "fade" data-aos-duration = "1500" />
           </li>
           <li>
-            <img src = "css.png" />
+            <img src = "css.png" data-aos = "fade" data-aos-duration = "1500" data-aos-delay = "200" />
           </li>
           <li>
-            <img src = "python.png" />
+            <img src = "python.png"  data-aos = "fade" data-aos-duration = "1500" data-aos-delay = "400" />
           </li>
           <li>
-            <img src = "nodejs.jpeg" />
+            <img src = "nodejs.jpeg"  data-aos = "fade" data-aos-duration = "1500" data-aos-delay = "600" />
           </li>
           <li>
-            <img src = "Lua-Logo.png" />
+            <img src = "Lua-Logo.png" data-aos = "fade" data-aos-duration = "1500" data-aos-delay = "800"  />
           </li>
         </ul>
       </div>
@@ -91,6 +92,10 @@
     <div class = "penutup">
         <p>Portfolio Created By Ipi</p>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  AOS.init();
+</script>
     <script src = "main.js"></script>
   </body>
 </html>
